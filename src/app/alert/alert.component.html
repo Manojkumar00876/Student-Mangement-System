@@ -1,0 +1,8 @@
+<div class="containerr">
+  <div *ngIf="isVisible" [ngClass]="{'alert-success': isSuccess, 'alert-danger': isDanger}" class="alert alert-dismissible fade show custom-alert" role="alert">
+    {{ message }}
+    <button type="button" class="close" aria-label="Close" (click)="closeAlert()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+</div>
