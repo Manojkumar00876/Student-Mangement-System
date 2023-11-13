@@ -1,0 +1,40 @@
+.custom-alert {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      width: 319px;
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+      z-index: 1000; /* Adjust z-index as needed to make sure it's above other elements */
+    
+  }
+
+  .message  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  button {
+    border: none;
+    background-color: #d4edda;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    height: 23px;
+  }
+
+  .alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+  }
+
+
+  
+  .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+  }
